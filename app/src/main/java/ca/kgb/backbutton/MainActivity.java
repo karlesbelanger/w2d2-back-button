@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Toast.makeText(MainActivity.this, "You are the best ! :) :P", Toast.LENGTH_LONG).show();
+        return;
     }
 }
